@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>shoppingcar</title>
+	<link rel="stylesheet" type="text/css" href="css/shoppingcar.css">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+</head>
+<body>
+<div class="web_wrapper">
+	<!-- shoppingcar 购物车 -->
+	<div class="web_header clearfix">
+		<div class="header_left float_L">
+			<img src="images/icon_back_n.png" alt="">
+		</div>
+		<div class="header_right float_R">
+			<img src="images/搜索2.png">
+		</div>
+		<div class="header_title">购物车</div>
+	</div>
+	<!-- commodity商品 -->
+	<div class="product">
+		<img src="images/136.png" alt="">
+	<div class="commodity">
+		<a href="classification.html">全部商品</a>
+		<a href="featuredProduct.html" target="_top">精选商品</a>
+	</div>
+	</div>
+	</div>	
+</body>
+<script>
+	var headerLeft=document.getElementsByClassName("header_left")[0];
+headerLeft.onclick=function(){
+	// console.log("ok");
+	window.history.back();
+}
+</script>
+</html>
